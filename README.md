@@ -3,6 +3,10 @@ Deep CNN for Garbage Classification:
 This project utilizes a Convolutional Neural Network (CNN) to automate the classification of waste images into "organic" and "recyclable" categories. It demonstrates the complete machine learning pipeline, from data preprocessing to model training, evaluation, and deployment, aiming to improve waste management and recycling efficiency.
 Project Structure:
 
+Download the dataset:
+
+https://archive.ics.uci.edu/dataset/908/realwaste
+
 Tools and Libraries:
 
 The following tools and libraries were used to develop and run this project:
