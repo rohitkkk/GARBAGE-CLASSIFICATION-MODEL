@@ -1,13 +1,13 @@
-Deep CNN for Garbage Classification:
+# Deep CNN for Garbage Classification:
 
 This project utilizes a Convolutional Neural Network (CNN) to automate the classification of waste images into "organic" and "recyclable" categories. It demonstrates the complete machine learning pipeline, from data preprocessing to model training, evaluation, and deployment, aiming to improve waste management and recycling efficiency.
 Project Structure:
 
-Download the dataset:
+## Download the dataset:
 
 https://archive.ics.uci.edu/dataset/908/realwaste
 
-Tools and Libraries:
+## Tools and Libraries:
 
 The following tools and libraries were used to develop and run this project:
 
@@ -18,7 +18,7 @@ NumPy: For array manipulations and numerical computations.
 Matplotlib: For plotting and visualizations.
 TensorBoard: Used for monitoring and visualizing training metrics (e.g., loss, accuracy).
 
-Model Training and Evaluation:
+## Model Training and Evaluation:
 
 The model is a CNN with the following architecture:
 
@@ -38,24 +38,24 @@ Batch Size: Adjustable in the code
 Validation Split: The dataset is split into training (70%), validation (20%), and test (10%) sets.
 The model is trained on Google Colab using a T4 GPU.
 
-Results:
+## Results:
 
 Accuracy:0.9458333253860474
 Precision: 0.9670329689979553
 Recall:0.8979591727256775
 
-Visualisation of 8 epochs History:
+## Visualisation of 8 epochs History:
 
 ![image](https://github.com/user-attachments/assets/7bf86a04-6cba-4d83-a0e0-aab73db4e94f)
 
 ![image](https://github.com/user-attachments/assets/abbb8dc8-3df6-4375-b8aa-9e833f6672ba)
 
-Demo output:
+## Demo output:
 
 ![image](https://github.com/user-attachments/assets/7a73cdc4-6802-499a-9786-349dd1950246)
 
 
-Deployment:
+## Deployment:
 
 The trained model is saved as wasteclassifier103.h5 in the models/ directory. To make real-time predictions:
 
@@ -63,7 +63,7 @@ Load the model:
 model = load_model('models/wasteclassifier103.h5')
 
 
-References: 
+## References: 
 - https://www.youtube.com/watch?v=jztwpsIzEGc&list=WL&index=22&pp=gAQBiAQB
 - TensorFlow documentation
 - OpenCV tutorials for image processing
