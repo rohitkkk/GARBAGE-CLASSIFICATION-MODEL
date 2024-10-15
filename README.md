@@ -62,9 +62,6 @@ The trained model is saved as wasteclassifier103.h5 in the models/ directory. To
 Load the model:
 model = load_model('models/wasteclassifier103.h5')
 
-Acknowledgements:
-
-Contributors: Shruti Pravin Sadare, Rohit Malviya
 
 References: 
 - https://www.youtube.com/watch?v=jztwpsIzEGc&list=WL&index=22&pp=gAQBiAQB
