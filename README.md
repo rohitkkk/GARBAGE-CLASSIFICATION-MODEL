@@ -51,3 +51,19 @@ Demo output:
 ![image](https://github.com/user-attachments/assets/7a73cdc4-6802-499a-9786-349dd1950246)
 
 
+Deployment:
+
+The trained model is saved as wasteclassifier103.h5 in the models/ directory. To make real-time predictions:
+
+Load the model:
+model = load_model('models/wasteclassifier103.h5')
+
+Acknowledgements:
+
+Contributors: Shruti Pravin Sadare, Rohit Malviya
+
+References: 
+- https://www.youtube.com/watch?v=jztwpsIzEGc&list=WL&index=22&pp=gAQBiAQB
+- TensorFlow documentation
+- OpenCV tutorials for image processing
+
